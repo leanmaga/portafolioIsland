@@ -4,7 +4,6 @@ import {
     contact,
     css,
     estate,
-    express,
     git,
     github,
     html,
@@ -14,16 +13,13 @@ import {
     motion,
     mui,
     nextjs,
-    nodejs,
     pricewise,
     react,
-    redux,
     sass,
     snapgram,
     summiz,
     tailwindcss,
     threads,
-    typescript
 } from "../assets/icons";
 
 export const skills = [
@@ -32,11 +28,7 @@ export const skills = [
         name: "CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
+    
     {
         imageUrl: git,
         name: "Git",
@@ -77,21 +69,13 @@ export const skills = [
         name: "Next.js",
         type: "Frontend",
     },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
+   
     {
         imageUrl: react,
         name: "React",
         type: "Frontend",
     },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
+   
     {
         imageUrl: sass,
         name: "Sass",
@@ -102,11 +86,7 @@ export const skills = [
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+    
 ];
 
 export const experiences = [

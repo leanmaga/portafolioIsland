@@ -49,7 +49,7 @@ const Contact = () => {
     <section className="relative flex lg:flex-row flex-col max-container">
       <div className="flex-1 min-w-[50%] flex flex-col">
         
-        <h1 className="head-text">Get in Touch</h1>
+        <h1 className="head-text">Pongase en contacto</h1>
 
         <form 
           ref={formRef}
@@ -58,12 +58,12 @@ const Contact = () => {
         >
 
           <label className="text-black-500 font-semibold">
-            Name
+            Nombre
             <input 
               className="input" 
               type="text" 
               name="name"
-              placeholder="John"
+              placeholder="Charles Darwin"
               required
               value={form.name}
               onChange={handleChange}
@@ -80,7 +80,7 @@ const Contact = () => {
               className="input" 
               type="email" 
               name="email"
-              placeholder="john@gmail.com"
+              placeholder="charlesdarwin@gmail.com"
               required
               value={form.email}
               onChange={handleChange}
@@ -92,12 +92,12 @@ const Contact = () => {
           </label>
 
           <label className="text-black-500 font-semibold">
-            Name
+            Mensaje
             <textarea 
               className="textarea"  
               name="message"
               rows={4}
-              placeholder="Let me know how I can help you!"
+              placeholder="¡Déjame saber cómo puedo ayudarte!"
               required
               value={form.message}
               onChange={handleChange}

@@ -7,23 +7,22 @@ const About = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
-        Hello, I'm{" "}
+        Hola, mi nombre es{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Leandro
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          Desarrollador Front-End de Argentina, specializado en tecnologias como React js.
         </p>
       </div>
 
       <div className='py-10 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3>
+        <h3 className='subhead-text'>Mis habilidades</h3>
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
@@ -42,11 +41,11 @@ const About = () => {
       </div>
 
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience.</h3>
+        <h3 className='subhead-text'>Experiencia laboral</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            Trabaje con empresas de diferentes partes del mundo mejorando mis habilidades y asociandome con gente
+            muy profesional e inteligente. Aquí les dejo mis resumen: 
           </p>
         </div>
 
