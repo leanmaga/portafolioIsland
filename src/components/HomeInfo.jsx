@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Leandro </span>
         👋
         <br />
-        A Software Engineer from Croatia 🇭🇷
+        Desarrollador Front-End de Argentina
       </h1>
     );
 
@@ -18,7 +18,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Worked with many companies <br /> and picked up many skills along the way
+          Trabajé con muchas empresas <br /> y adquirí muchas habilidades a lo largo del camino
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
